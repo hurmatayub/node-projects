@@ -1,6 +1,6 @@
 {
-  "name": "hu05-currency-converter",
-  "version": "1.0.0",
+  "name": "hu06-words-counter",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
