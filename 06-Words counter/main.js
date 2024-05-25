@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let answers = await inquirer.prompt([
@@ -8,7 +9,6 @@ let answers = await inquirer.prompt([
     },
 ]);
 let words = answers.sentence.trim().split(" ");
-//Analysis of user input sentence;
-console.log(chalk.bold("\n \t \t \t. Sentence Words:"));
+console.log(chalk.bold("\n. Sentence Words:"));
 console.log(words);
-console.log(chalk.bold(`\n \t \t \t. Word Count: ${chalk.bold.red(words.length)}\n`));
+console.log(chalk.bold(`\n. Word Count: ${chalk.bold.red(words.length)}\n`));

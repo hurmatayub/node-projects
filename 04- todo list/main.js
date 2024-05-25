@@ -1,9 +1,9 @@
-// #! /usr/bin/env node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let todolist = [];
 let conditons = true;
-console.log(chalk.green.bold("\n \t Wellcome to Madiha Ali - Todo-List Application\n"));
+console.log(chalk.green.bold("\n \t Wellcome to Hurmat Ayub - Todo-List Application\n"));
 let main = async () => {
     while (conditons) {
         let option = await inquirer.prompt([
